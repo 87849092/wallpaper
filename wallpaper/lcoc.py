@@ -5,6 +5,7 @@ import random
 from fake_useragent import UserAgent
 ua = UserAgent(verify_ssl=False)
 
+# 此代码仅供学习。
 url = "http://lcoc.top/bizhi/api.php?"
 header = {
     "Cookie": "__jsluid_h=646a80687aa0eb4fa855f4f5606c6eda; pgv_pvi=495470592; UM_distinctid=170a48ca65a306-0b26b50ab0838f-5040231b-13c680-170a48ca65b31a; pgv_si=s7351662592; CNZZDATA1264542189=61452249-1583307463-%7C1583740575"
